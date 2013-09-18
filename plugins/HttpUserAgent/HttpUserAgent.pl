@@ -24,7 +24,7 @@ my $plugin = __PACKAGE__->new ({
     plugin_link => 'http://www.magicvox.net/archive/2013/09172046/', # Blog
     doc_link => "http://lab.magicvox.net/trac/mt-plugins/wiki/$MYNAME", # tracWiki
     description => <<'HTMLHEREDOC',
-<__trans phrase="Description">
+<__trans phrase="Supply template tags to retrieve the contents with HTTP/HTTPS communications.">
 HTMLHEREDOC
     l10n_class => "${FULLNAME}::L10N",
 
